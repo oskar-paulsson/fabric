@@ -30,10 +30,15 @@ $ mkdir -p $HOME/go/src/github.com/<your_github_userid>
 $ cd $HOME/go/src/github.com/<your_github_userid>
 ```
 
-Download the latest release of Fabric samples, docker images, and binaries.
+Download the latest release of Fabric samples, docker images, and binaries. Visit the URL ```https://bit.ly/2ysb0FE``` and copy the content (raw bash script) into a file ```~/pullfabric.sh``` for instance. Make sure the file is an executable by running the following command
 
 ```shell
-$ curl -sSL https://bit.ly/2ysbOFE | bash -s
+$ chmod 544 ~/pullfabric.sh
+```
+and then run the file 
+
+```shell
+$ sudo ./pullfabric.sh
 ```
 
 You have completed installing Fabric samples, docker images, and binaries to your system.
